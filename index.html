@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Space Grotesk' rel='stylesheet'>
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="date-cont">
+        <div id="todays-date">January 1st, 1111</div>
+    </div>
+
+    <div class="location-cont">
+        <div id="current-location">Current Location</div>
+    </div>
+
+    <div class="weather-img">
+        <img src="./Assets/Sunny.png" alt="current-weather">
+    </div>
+
+    <div class="temp-cont">
+        <div id="current-temp">00° F</div>
+    </div>
+
+    <div class="high-and-low">
+        <div class="highlow">Low: <div id="low-temp">00°</div>
+        </div>
+        <div class="highlow">High: <div id="high-temp">100°</div>
+        </div>
+    </div>
+
+    <div class="sunrise-sunset-cont">
+        <div class="sunrise">
+            <img src="./Assets/Sunrise.png" alt="">
+            <div id="sunrise-time">6:00am</div>
+
+        </div>
+
+        <div class="sunset">
+            <img src="./Assets/Sunset.png" alt="">
+            <div id="sunset-time">6:00pm</div>
+        </div>
+
+    </div>
+
+
+    <div class="four-day-cont">
+        <div class="day" id="dayone">
+            <img id="dayoneimg" src="./Assets/Sunny.png" alt="daytwoimg">
+            <div id="dayonedate">Sun 1/1</div>
+            <div id="dayonetemp">10°F</div>
+        </div>
+        <div class="day" id="daytwoimg">
+            <img id="daytwoimg" src="./Assets/Sunny.png" alt="daytwoimg">
+            <div id="daytwodate">Mon 1/2</div>
+            <div id="daytwotemp">10°F</div>
+        </div>
+        <div class="day" id="daythreeimg">
+            <img id="daythreeimg" src="./Assets/Sunny.png" alt="daytwoimg">
+            <div id="daythreedate">Tues 1/3</div>
+            <div id="daythreetemp">10°F</div>
+        </div>
+        <div class="day" id="dayfourimg">
+            <img id="dayfourimg" src="./Assets/Sunny.png" alt="daytwoimg">
+            <div id="dayfourdate">Wed 1/4</div>
+            <div id="dayfourtemp">10°F</div>
+        </div>
+    </div>
+
+    <div class="changeappearence">
+        <div class="changeappearencetxt">Change Appearance</div>
+    </div>
+    <div class="changeappearence"><button id="changeappearencebtn"></button>
+    </div>
+</body>
+<script src="date.js"></script>
+
+</html>

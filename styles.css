@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    font-family: 'Space Grotesk';font-size: 22px;
+}
+
+body {
+    background: #B7DEFF;
+}
+
+.date-cont {
+    margin: 20px 0 10px 0;
+}
+
+#todays-date {
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+#current-location {
+    text-align: center;
+    font-size: 7vw;
+    margin: 0 0 20px 0;
+}
+
+.weather-img {
+    margin: 0 0 15px 0;
+    display: flex;
+    justify-content: center;
+    height: 40vw;
+}
+
+#current-temp {
+    text-align: center;
+    font-size: 12vw;
+}
+
+
+
+.high-and-low{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.highlow {
+    margin: 5px 30px 5px 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+}
+
+#high-temp, #low-temp {
+    font-size: 4vw;
+}
+
+.sunrise img, .sunset img {
+    height: 8vw;
+}
+
+.sunrise-sunset-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.sunrise, .sunset {
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+}
+
+#sunrise-time, #sunset-time {
+    font-size: 4vw;
+}
+
+.four-day-cont {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 0;
+}
+
+.day{
+    width: 25%;
+    height: 25%;
+    display: inline-block;
+    text-align: center;
+}
+
+#dayoneimg, #daytwoimg, #daythreeimg, #dayfourimg {
+    height: 10vw;
+}
+
+#dayonedate, #daytwodate, #daythreedate, #dayfourdate {
+    font-size: 3vw;
+}
+
+#dayonetemp, #daytwotemp, #daythreetemp, #dayfourtemp {
+    margin: 0px 0 0 0;
+    font-size: 6vw;
+}
+
+.changeappearence {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 0 0;
+}
+
+.changeappearencetxt {
+    color: black;
+    text-align: left;
+    margin: 10px 40px 0 0;
+}
+
+#changeappearencebtn {
+    display: flex;
+    justify-content: center;
+    
+    height: 100px;
+    width: 100px;
+
+    border-radius: 50%;
+    border-color: white;
+    background-color: #4C7191;
+    color: #4C7191;
+}
