@@ -38,8 +38,6 @@ function geocodeLatLng() {
 
                         let weather = data.weather[0].main;
 
-                        console.log(weather);
-
                         if (weather == "Clouds") {
                             let currentWeather = document.createElement("img");
                             currentWeather.src = "./Assets/Cloudy.png"
@@ -48,9 +46,9 @@ function geocodeLatLng() {
                             src.appendChild(currentWeather);
                         }
 
-                        else if (weather == "Clouds") {
+                        else if (weather == "Clear") {
                             let currentWeather = document.createElement("img");
-                            currentWeather.src = "./Assets/Cloudy.png"
+                            currentWeather.src = "./Assets/Sunny.png"
 
                             var src = document.getElementById("weather-img");
                             src.appendChild(currentWeather);
