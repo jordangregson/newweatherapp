@@ -38,7 +38,7 @@ function geocodeLatLng() {
 
                         let weather = data.weather[0].main;
 
-                        
+                        console.log(weather);
 
                         if (weather == "Clouds") {
                             let currentWeather = document.createElement("img");
