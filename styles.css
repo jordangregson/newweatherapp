@@ -23,7 +23,7 @@ body {
     margin: 0 0 20px 0;
 }
 
-.weather-img {
+#weather-img {
     margin: 0 0 15px 0;
     display: flex;
     justify-content: center;
@@ -87,7 +87,9 @@ body {
 }
 
 #dayoneimg, #daytwoimg, #daythreeimg, #dayfourimg {
+    display: flex;
     height: 10vw;
+    justify-content: center;
 }
 
 #dayonedate, #daytwodate, #daythreedate, #dayfourdate {
