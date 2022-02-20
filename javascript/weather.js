@@ -40,15 +40,15 @@ function geocodeLatLng() {
 
                         if (weather == "Clouds") {
                             let currentWeather = document.createElement("img");
-                            currentWeather.src = "./Assets/Cloudy.png"
+                            currentWeather.src = "../Assets/Cloudy.png"
 
                             var src = document.getElementById("weather-img");
                             src.appendChild(currentWeather);
                         }
 
-                        else if (weather == "Clear") {
+                        else if (weather == "Clouds") {
                             let currentWeather = document.createElement("img");
-                            currentWeather.src = "./Assets/Sunny.png"
+                            currentWeather.src = "../Assets/Cloudy.png"
 
                             var src = document.getElementById("weather-img");
                             src.appendChild(currentWeather);
